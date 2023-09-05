@@ -1,6 +1,4 @@
 import math
-def lerp(a, b, t):
-    return a * (1-t) + b * t
 
 h,m,s = float(input("Hours: ")), float(input("Minutes: ")), float(input("Seconds: "))
 
