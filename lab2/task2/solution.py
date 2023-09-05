@@ -1,6 +1,15 @@
 import math
+def lerp(a, b, t):
+    return a * (1-t) + b * t
 
-#,m,s = float(input("Hours: ")), float(input("Minutes: ")), float(input("Seconds: "))
+h,m,s = float(input("Hours: ")), float(input("Minutes: ")), float(input("Seconds: "))
 
-# 43200, 10800
-print(math.degrees(math.tan(10800 / 43200)))
+MaxTime = 43200
+totalSeconds = (h * 60 * 60) + (m * 60) + (s)
+
+#Всего секунд может быть 43200,
+#Переводим заданное число в секунды
+#находим процент используя totalSeconds/MaxTime
+#далее 360 градусов умножаем на тот же самый процент
+
+print(360 * totalSeconds/MaxTime)
