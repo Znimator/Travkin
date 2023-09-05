@@ -1,5 +1,3 @@
-import math
-
 h,m,s = float(input("Hours: ")), float(input("Minutes: ")), float(input("Seconds: "))
 
 MaxTime = 43200
