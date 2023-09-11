@@ -1,0 +1,10 @@
+x1 = input()
+x2 = input()
+op = input()
+
+if op == "mod":
+    print(math.modf(x1, x2))
+elif op == "/":
+    print(math.div(x1, x2))
+elif op == "*":
+    print(math.pow(x1, x2))
