@@ -1,4 +1,5 @@
 import math
+
 sum = 0
 N = int(input())
 sinus = 0
