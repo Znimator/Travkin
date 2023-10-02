@@ -11,4 +11,4 @@ for v in range(i):
         k += 1
 
 print("sum:", sum * 2)
-print("count:", k)
+print("count :", k)
