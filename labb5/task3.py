@@ -16,4 +16,3 @@ print("count:", k)
 
 
 
-print("hello")
