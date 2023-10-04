@@ -1,6 +1,15 @@
-def max_of_free(a, b, c, d):
-    return max(max(a, b, c), max(a, b, d), max(a, c, d))
-print(max_of_free(11 , 25, 52, 67)) 
+# Заданные числа
+a = float(input("Введите число a: "))
+b = float(input("Введите число b: "))
+c = float(input("Введите число c: "))
+d = float(input("Введите число d: "))
 
+# Находим максимумы
+max_abcd = max(a, b, c, d)
+max_abd = max(a, b, d)
+max_acd = max(a, c, d)
 
-print("hello")
+# Вывод результатов
+print(f"Максимум из a, b, c и d: {max_abcd}")
+print(f"Максимум из a, b и d: {max_abd}")
+print(f"Максимум из a, c и d: {max_acd}")
