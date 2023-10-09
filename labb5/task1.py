@@ -1,16 +1,14 @@
-i = int(input("i (>= 1): "))
-e = float(input("e (0-1): "))
+N = input("N:")
 
 sum = 0
-k = 0
-_i = 0
+l = len(N)
+_l = 0
 
-while _i < i:
-    x = (v+1) / (v+2)
-    if x > e:
-        sum += x
-        k += 1
-    _i += 1
+while _l < l:
+    sum += int(N[_l]) ** l
+    _l += 1
 
-print("sum:", sum * 2)
-print("count:", k)
+if sum == int(N):
+    print(True)
+else:
+    print(False)

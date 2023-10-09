@@ -1,10 +1,13 @@
-def f(i, e, v = 0, k = 0, sum = 0, c = 0):
-    x = (v+1) / (v+2)
-    if x > e:
-        sum += x
-        k += 1
-    if c < i:
-        c += 1
-        f(i, e, v+1, k, sum, c)
-    print(sum)
-    return sum
+def f(i, e):
+    sum = 0
+    k = 0
+    v = 0
+
+    while v < i:
+        x = (v+1) / (v+2)
+        if x > e:
+            sum += x
+            k += 1
+        v += 1 
+    
+    return sum * 2, k
