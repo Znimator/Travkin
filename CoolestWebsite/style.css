@@ -27,6 +27,11 @@ h3 {
     color: purple;
     font-family: Hack;
 }
+ul li::marker {
+    content: "\f1b2"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    font-size: var(--icon-size);
+}
 .mainText {
     color: black;
     text-align: center;
