@@ -1,0 +1,17 @@
+.yellow{
+    background-color: yellow;
+    height: 400px;
+    width: 500px;
+    }
+.p1{
+    box-sizing: content-box;
+    background-color: violet;
+    height: 50%;
+    width: 70%;
+    }
+.p2{
+    box-sizing: border-box;
+    background-color: violet;
+    height: 50%;
+    width: 65%;
+    }
