@@ -4,4 +4,4 @@ def f(n):
    else:
        return n * f(n - 1)
 
-print(f(4))
+print(f(4)) #check2
