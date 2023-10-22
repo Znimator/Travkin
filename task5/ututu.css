@@ -1,0 +1,17 @@
+body{
+    background-image: url("fon.webp");
+    background-size: 300%;
+    }
+p {
+    width: 500px;
+    padding: 1em;
+    margin: 1em;
+    border: 1px grey solid;
+    box-shadow: 2px 1px 5px 3px grey;
+    background-color: white;
+}
+p img{
+    width: 240px;
+    height: 200px;
+    border: 1px black solid;
+}
