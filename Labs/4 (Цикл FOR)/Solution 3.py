@@ -1,3 +1,5 @@
+# Дано натуральное число N. Определить, является ли оно простым.
+
 import math
 import random
 
@@ -10,4 +12,5 @@ if pick == 1:
 else:
     a = int(input())
     
+print(a)
 print(a%2 != 0 and a != 2)

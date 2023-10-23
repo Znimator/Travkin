@@ -1,3 +1,5 @@
+# /Images/Task 2.png
+
 import math
 import random
 
@@ -11,7 +13,7 @@ if pick == 1:
     A = random.randint(1, 100)
 else:
     N = int(input("n:"))
-    A = int(input("a:"))
+    A = float(input("a:"))
 
 mul = 1
 

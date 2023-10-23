@@ -1,3 +1,5 @@
+# Условие: /Images/Task 1.png
+
 import math
 x = float(input("X: "))
 a = float(input("A: "))

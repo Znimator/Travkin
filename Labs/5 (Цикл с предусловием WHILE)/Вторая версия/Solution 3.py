@@ -1,3 +1,5 @@
+# /Images/Task 3.png
+
 i = int(input("i (>= 1): "))
 e = float(input("e (0-1): "))
 
