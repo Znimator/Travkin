@@ -1,2 +1,2 @@
-# Travkin
- vuz-exampels
+# About
+University Coding Stuff
