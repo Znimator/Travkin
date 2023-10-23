@@ -1,0 +1,20 @@
+.orange{
+    width: 500px;
+}
+.orange ul{
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+.orange li{
+    background-color: orange;
+}
+.violet{
+    width: 500px;
+}
+violet ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+.violet li{
+    background-color: violet;
+}

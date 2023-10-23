@@ -1,0 +1,17 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2em;
+    width: 400px;
+    padding: 1em;
+    border: 1px black solid;
+    font-size: 1.2em;
+}
+.p1{
+
+}
+.p2{
+    font-style: italic;
+}
+.p3{
+    font-weight: bold;
+}
