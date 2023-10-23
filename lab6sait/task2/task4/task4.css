@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(241, 212, 241);
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+.block{
+    border: 1px green solid;
+    background-color: gray;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    padding-top: 1em;
+    font-size: 20px;
+}
+.first_block{
+    position: absolute;
+    top: 221px;
+    left: 24px;
+    width: 418px;
+    height: 177px;
+    transform: rotate(-90deg);
+}
+.second_block{
+    position: absolute;
+    top: 320px;
+    right: 120px;
+}
+.third_block{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+}

@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100vw;
+    background-color: greenyellow;
+    z-index: 2;
+}
+.left-wrapper{
+    position: fixed;
+    top: calc(100px + 0.5vh);
+    height: 100vh;
+    width: 30vw;
+    background-color: blue;
+}
+.right-wrapper{
+    position: absolute;
+    z-index: 1;
+    top: calc(100px + 0.5vh);
+    background-color: red;
+    width: 67.3vw;
+    height: 200vh;
+    margin-left: calc(30vw + 0.5vw);
+}
