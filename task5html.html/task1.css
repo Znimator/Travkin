@@ -1,0 +1,33 @@
+.p1{
+    position: absolute;
+    background-color: bisque;
+    height: 60px;
+    right: 50px;
+    width: 200px;
+    top: 200px;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+
+}
+.p2{
+    position: absolute;
+    background-color: bisque;
+    height: 60px;
+    left: 50px;
+    width: 200px;
+    top: 200px;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.p1:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+.p2:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
