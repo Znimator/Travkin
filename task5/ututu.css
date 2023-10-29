@@ -5,13 +5,19 @@ body{
 p {
     width: 500px;
     padding: 1em;
-    margin: 1em;
+    margin: auto;
+    margin-top: 1em;
     border: 1px grey solid;
     box-shadow: 2px 1px 5px 3px grey;
     background-color: white;
 }
-p img{
+img{
     width: 240px;
     height: 200px;
     border: 1px black solid;
+    margin: auto;
+}
+h1{
+    font-size: 0.9em;
+    text-align: center;
 }

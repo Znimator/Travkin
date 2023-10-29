@@ -1,0 +1,23 @@
+.header {
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    margin: calc();
+    background-color: orange;
+    padding: 10px;
+}
+.left {
+    left: 10;
+    background-color: orange;
+    float: left;
+    height: 400px;
+    width: 20%;
+    margin: 5px;
+}
+.right {
+
+    background-color: green;
+    float: right;
+    height: 400px;
+    width: 77%;
+    margin: 5px;
+}
