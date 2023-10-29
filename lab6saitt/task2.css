@@ -1,0 +1,39 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+     
+div{
+    box-sizing: border-box;
+    padding: 1em;
+    border: 1px solid grey;
+}
+     
+#header{
+    position: fixed;
+    top: 0px;
+    left: 5vw;
+    width: 90vw;
+    height: 100px;
+    background-color: orange;
+}
+     
+    #aside_menu{
+    position: fixed;
+    top: 105px;
+    left: 5vw;
+    width: 25vw;
+    height: 100%;
+    background-color: orange;
+}
+     
+#content_block{
+    position: absolute;
+    z-index: -1;
+    top: 105px;
+    left: calc(30vw + 5px);
+    width: calc(65vw - 5px);
+    min-height: 1200px;
+    background-color: green;
+    text-align: center;
+}
