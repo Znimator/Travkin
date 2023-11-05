@@ -1,0 +1,27 @@
+pre{
+    font-size: 1.3em;
+    font-weight: bold;
+    overflow: hidden;
+}
+ 
+.anim{
+    animation-name: example_1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+     
+@keyframes example_1{
+ 
+    from {
+      width: 0px;
+    }
+ 
+    to {
+      width: 500px;
+    }
+ 
+}

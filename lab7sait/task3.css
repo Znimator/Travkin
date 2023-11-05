@@ -1,0 +1,25 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 3em;
+    margin-left: 30px;
+    padding: 1em;
+    border: 1px solid green;
+    background-color: #DDD;
+    font-weight: bold;
+    float: left;
+}
+     
+#first{
+    overflow-y: auto;
+}
+     
+#second{
+    overflow: hidden;
+}
+     
+#third{
+    width: 450px;
+    clear: both;
+}
