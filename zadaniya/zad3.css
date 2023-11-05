@@ -1,17 +1,20 @@
-.yellow{
-    background-color: yellow;
-    height: 400px;
+div{
     width: 500px;
-    }
-.p1{
-    box-sizing: content-box;
-    background-color: violet;
-    height: 50%;
+    height: 400px;
+    background-color: yellow;
+}
+     
+p{
     width: 70%;
-    }
-.p2{
-    box-sizing: border-box;
-    background-color: violet;
     height: 50%;
-    width: 65%;
-    }
+    padding: 10px;
+    background-color: violet;
+}
+     
+.p_1{
+    box-sizing: content-box;
+}
+     
+.p_2{
+    box-sizing: border-box;
+}
