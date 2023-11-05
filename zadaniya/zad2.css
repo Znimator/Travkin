@@ -1,19 +1,21 @@
-.yellow{
-    background-color: yellow;
-    height: 400px;
+div{
     width: 500px;
+    height: 400px;
+    background-color: yellow;
 }
-.violet-1{
-    background-color: violet;
+     
+p{
     width: 70%;
     height: 50%;
+    background-color: violet;
+}
+     
+.p_1{
     min-width: 400px;
     min-height: 150px;
 }
-.violet-2{
-    width: 70%;
-    height: 50%;
+     
+.p_2{
     max-width: 400px;
     max-height: 150px;
-    background-color: violet;
 }

@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Практика CSS</title>
-    <link rel="stylesheet" href="zad2.css">
+  <meta charset="utf-8">
+  <title>z(2)</title>
+  <link rel="stylesheet" href="zad2.css">
 </head>
 <body>
-    <div class="yellow">
-        <p class="violet-1">Рассчитайте конечные размеры абзацев в пикселях и объясните свое решение?</p>
-        <p class="violet-2">Рассчитайте конечные размеры абзацев в пикселях и объясните свое решение?</p>
-    </div>
+ 
+<div>
+   <p class="p_1">
+    Ширина абзаца равна (500/100)*70px=350px,<br> 
+    что меньше минимально допустимого значения,<br> 
+    поэтому ширина примет минимально допустимое<br> 
+    значение и будет  равна 400px.<br><br>
+     
+    Высота абзаца равна (400/100)*50px=200px   
+  </p>
+   
+  <p class="p_2">
+    Ширина абзаца равна (500/100)*70px=350px,<br><br>
+     
+    Высота абзаца равна (400/100)*50px=200px,<br> 
+    что больше максимально допустимого значения,<br> 
+    поэтому высота примет максимально допустимое<br> 
+    значение и будет  равна 150px.
+  </p>
+ 
+</div>
+   
 </body>
 </html>
