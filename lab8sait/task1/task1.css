@@ -1,0 +1,12 @@
+.room {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column-reverse;
+}
+  
+.flex-item {
+    flex: 1; 
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: center;
+} 
