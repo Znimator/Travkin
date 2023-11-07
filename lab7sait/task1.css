@@ -1,27 +1,27 @@
-pre{
-    font-size: 1.3em;
-    font-weight: bold;
-    overflow: hidden;
+.main-section{
+  margin: 0 auto;
+  width: 500px;
 }
- 
 .anim{
-    animation-name: example_1;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: backwards;
+  animation-name: example_1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  overflow: hidden;
+  white-space: nowrap;
+
 }
-     
-@keyframes example_1{
- 
-    from {
+span{
+  margin-right: 40px;
+}
+@keyframes example_1 {
+  0%{
       width: 0px;
-    }
- 
-    to {
+  }
+  100%{
       width: 500px;
-    }
- 
+  }
 }
