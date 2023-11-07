@@ -5,6 +5,7 @@ div{
     margin-bottom: 5em;
     padding: 1em;
     border: 1px solid;
+    display: table;
 }
      
 p{
@@ -19,5 +20,9 @@ p{
      
 .second{
     margin-top: 1.5em;
+    padding: 1.5em;
+
+}
+.third{
     padding: 1.5em;
 }
