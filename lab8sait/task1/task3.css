@@ -5,6 +5,7 @@
     /*flex-direction: column*/;
     /*flex-direction: column-reverse*/;
     justify-content: center;
+    border: 1px solid black;
 }
   
 .flex-item {
@@ -14,6 +15,18 @@
     justify-content: center;
     display: flex;
 }
-.room-1{
-    
+.room-2{
+    /*flex-direction: row-reverse*/
+    display: flex;
+    justify-content: flex-start;
 }
+.room-1, .room-2{
+    /*justify-content: flex-start*/
+    display: flex;
+    justify-content: flex-end;
+}
+.room-1{
+    justify-content: flex-end;
+    display: flex;
+}
+

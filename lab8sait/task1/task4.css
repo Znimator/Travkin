@@ -1,0 +1,12 @@
+div{
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+.room-1{
+    display: flex;
+    justify-content: space-between;
+}
+.room-2{
+    display: flex;
+    justify-content: space-around;
+}
