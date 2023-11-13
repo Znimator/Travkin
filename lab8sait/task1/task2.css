@@ -2,9 +2,9 @@
     display: flex;
     background-color: aqua;
     /*flex-direction: row-reverse*/;
-    /*flex-direction: column*/;
+    flex-direction: column;
     /*flex-direction: column-reverse*/;
-    justify-content: center;
+    /*justify-content: center*/;
 }
   
 .flex-item {
