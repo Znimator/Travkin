@@ -1,4 +1,5 @@
 .skate1{
+    box-sizing: border-box;
     height: 300px;
     width: 75px;
     padding: 10px;

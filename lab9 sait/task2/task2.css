@@ -1,0 +1,54 @@
+.skate1{
+    box-sizing: border-box;
+    height: 300px;
+    width: 75px;
+    padding: 10px;
+    background-color: aqua;
+    float: left;
+    border-radius: 25pt/55pt;
+    border: 1px solid black;
+}
+
+img{
+   height: 40px;
+   margin: 0 auto; 
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skate2{
+    box-sizing: border-box;
+    height: 300px;
+    width: 75px;
+    padding: 10px;
+    background-color: aqua;
+    float: right;
+    border-radius: 25pt/55pt;
+    border: 1px solid black;
+}
+
+.skate3{
+    box-sizing: border-box;
+    height: 300px;
+    width: 75px;
+    padding: 10px;
+    background-color: aqua;
+    float: right;
+    border-radius: 25pt/55pt;
+    border: 1px solid black;
+}
+
+.skate4{
+    box-sizing: border-box;
+    height: 300px;
+    width: 75px;
+    padding: 10px;
+    background-color: aqua;
+    float: right;
+    border-radius: 25pt/55pt;
+    border: 1px solid black;
+}
