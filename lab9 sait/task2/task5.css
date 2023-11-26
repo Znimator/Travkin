@@ -1,0 +1,14 @@
+div{
+    width: 400px;
+    display: flex;
+    background-color: rgb(159, 233, 233);
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input{
+    margin-bottom: 10px;
+    min-height: 50px;
+    flex-grow: 1;
+}

@@ -1,54 +1,85 @@
-.skate1{
-    box-sizing: border-box;
-    height: 300px;
-    width: 75px;
-    padding: 10px;
-    background-color: aqua;
-    float: left;
-    border-radius: 25pt/55pt;
-    border: 1px solid black;
-}
-
-img{
-   height: 40px;
-   margin: 0 auto; 
-}
-
-div{
+.spot{
+    width: 1200px;
+    min-height: 1200px;
+    background-color: rgb(240, 255, 241);
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.spot_1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.spot_1 div{
+    flex-basis: 300px;
+}
+.spot_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.spot_2 div{
+    flex-shrink: 0;
+    flex-shrink: 1;
 }
 
-.skate2{
-    box-sizing: border-box;
-    height: 300px;
-    width: 75px;
-    padding: 10px;
-    background-color: aqua;
-    float: right;
-    border-radius: 25pt/55pt;
-    border: 1px solid black;
-}
 
-.skate3{
-    box-sizing: border-box;
-    height: 300px;
-    width: 75px;
-    padding: 10px;
-    background-color: aqua;
-    float: right;
-    border-radius: 25pt/55pt;
-    border: 1px solid black;
+.skate_1{
+    flex-grow: 1;
+    flex-grow: 0;
+    flex-basis: 500px;
 }
-
-.skate4{
+.skate_2{
+    /* margin-top: auto; */
     box-sizing: border-box;
-    height: 300px;
-    width: 75px;
+    margin-left: auto;
+    flex-grow: 3;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 500px;
+}
+.skate_3{
+    align-self: flex-end;
+    /* margin-bottom: auto; */
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    min-width: 50px;
+    padding: 25px;
+    flex-grow: 0;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-basis: 500px;
+}
+.skate_4{
+    margin-right: auto;
+    flex-grow: 3;
+    flex-grow: 0;
+    flex-basis: 200px;
+    flex-basis: 500px;
+}
+.skate_5{
+    flex-grow: 0;
+    flex-basis: 200px;
+    flex-basis: 500px;
+}
+img{
+    width: 70px;
+}
+.skate{
+    min-width: 75px;
+    /*Пришлось поставить мин т.к. из-за фиксированных размеров элемент не растет */
+    min-height: 300px;
+    border: 3px white solid;
+    background-color: blueviolet;
     padding: 10px;
-    background-color: aqua;
-    float: right;
-    border-radius: 25pt/55pt;
-    border: 1px solid black;
+    margin: 10px;
+    flex-shrink: 1;
+    flex-shrink: 0;
+    flex-basis: 100%;
 }

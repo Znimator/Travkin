@@ -1,0 +1,27 @@
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 0 auto;
+}
+.card-meta{
+    text-align: center;
+    background-color: gold;
+}
+.card-category{
+    flex-grow: 1;
+    background-color: hotpink;
+    text-align: center;
+}
+.cards{
+    flex-wrap: wrap;
+    background-color: greenyellow;
+    display: flex;
+}
+.card{
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: blueviolet;
+    flex-grow: 1;
+}
