@@ -9,6 +9,8 @@ def IsPrime(n):
         d += 1
     return d == n
 
+print(IsPrime(3))
+
 choice = int(input("Рандом (1) или Ручной ввод (2):"))
 
 arr = []

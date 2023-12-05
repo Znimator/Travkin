@@ -9,8 +9,6 @@ k = n - 1
 
 a = array2d(n,n)
 
-print(a)
-
 for i in range(n):
     for b in range(n):
         if b == k:
@@ -18,5 +16,4 @@ for i in range(n):
             k -= 1
         else:
             a[i][b] = 0
-
-print(a)
+    print(a[i])
