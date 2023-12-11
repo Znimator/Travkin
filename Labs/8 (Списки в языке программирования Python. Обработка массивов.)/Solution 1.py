@@ -3,6 +3,14 @@
 # являются четными и имеют два нуля в своей записи б) максимальный элемент
 # среди тех, которые не являются простыми
 
+def IsPrime(n):
+    d = 2
+    while n % d != 0:
+        d += 1
+    return d == n
+
+print(IsPrime(3))
+
 choice = int(input("Рандом (1) или Ручной ввод (2):"))
 
 arr = []
@@ -32,6 +40,9 @@ for i in arr:
     if i % 2 == 0 and str(i).count("0") == 2:
         _sum += i
 
-mElement = max(arr) if max(arr) % 2 == 0 else max(arr) - 1
+for i in arr:
+    if not(IsPrime(i)) and i > mElement:
+        mElement = i
 
+print(arr)
 print(_sum, mElement)
