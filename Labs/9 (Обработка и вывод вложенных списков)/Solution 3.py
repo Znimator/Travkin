@@ -5,7 +5,6 @@ from Array2D import array2d
 from random import randint
 from math import floor
 
-
 a = array2d(int(input("N: ")), int(input("M: ")))
 
 for n in a:

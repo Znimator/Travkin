@@ -2,11 +2,19 @@
 # числами от 1 до n×m ―диагоналями‖, как показано в примере. Выведите
 # полученный массив, отводя на вывод каждого элемента ровно 4 символа.
 
-#???
-from Array2D import array2d
+def fill_diagonals(n, m):
+    matrix = [[0] * m for _ in range(n)]
+    num = 1
 
-n, m = int(input("n:")), int(input("m: "))
+    for d in range(n + m - 1):
+        for i in range(max(0, d - m + 1), min(d, n - 1) + 1):
+            j = d - i
+            matrix[i][j] = num
+            num += 1
 
-a = array2d(n, m)
+    for i in range(n):
+        for j in range(m):
+            print(f'{matrix[i][j]:4}', end='')
+        print()
 
-print(a)
+fill_diagonals(4, 4)
