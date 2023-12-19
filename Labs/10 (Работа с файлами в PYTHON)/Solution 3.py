@@ -16,4 +16,7 @@ out = open(r"Labs/10 (Работа с файлами в PYTHON)/Files/3Output.tx
 words = re.findall(r"\w+", inp.read())
 for w in words:
     if w.lower()[0] == C:
-        out.write(w)
+        out.write(w + " ")
+
+inp.close()
+out.close()

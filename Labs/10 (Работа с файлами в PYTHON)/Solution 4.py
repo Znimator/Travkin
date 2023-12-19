@@ -11,3 +11,6 @@ nums = inp.read().split()
 for num in nums:
     if not num.isdigit():
         out.write(f"{num} ")
+
+inp.close()
+out.close()
