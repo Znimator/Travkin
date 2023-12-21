@@ -1,1 +1,2 @@
-print(3**5 + -8/-4 + 100//3)
+for i in range(1,100):
+    print("suck my cock")
