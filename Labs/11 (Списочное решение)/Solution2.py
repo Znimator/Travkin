@@ -7,9 +7,7 @@ def IsPrime(n):
         d += 1
     return d == n
 
-nums = []
-for i in range(1, 100):
-    nums.append(randint(1,100))
+nums = [randint(1,100) for _ in range(1, 100)]
 
 print(nums)
 matches = [x for x in nums if IsPrime(x)]
