@@ -1,2 +1,2 @@
-for i in range(1,100):
-    print("suck my cock")
+for i in range(5):                                                                                                                                                                                  
+     print("I'm stuck in a loop! Send help!")
