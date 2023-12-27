@@ -8,20 +8,20 @@
 # данный город. Если названия города нет в словаре, оставьте строку
 # ответа пустой.
 
+import re
+
 count = int(input("Количество стран: "))
 countries = {}
 
 for i in range(count):
-    name = input("Название страны: ")
-    N = int(input("Количество городов: "))
+    info = input("Название страны + города через запятую: ")
     towns = set()
+    
+    words = re.findall(r"\w+", info)
 
-    for b in range(N):
-        town = input("Название города: ")
-        towns.add(town)
-    countries[name] = towns
+    countries[words[0]] = words[1:]
 
 tofind = input("Название города (чтобы вывести страну): ")
-for country, town in countries.items():
-    if tofind in town:
+for country, towns in countries.items():
+    if tofind in towns:
         print(country)
