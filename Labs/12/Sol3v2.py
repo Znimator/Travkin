@@ -14,7 +14,7 @@ count = int(input("Количество стран: "))
 countries = {}
 
 for i in range(count):
-    info = input("Название страны + города через запятую: ")
+    info = input("Название страны и города через запятую: ")
     towns = set()
     
     words = re.findall(r"\w+", info)
