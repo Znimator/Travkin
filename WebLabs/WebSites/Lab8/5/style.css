@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    height: 95vh;
+}
+.picture{
+    margin: auto;
+}
+img{
+    height: 40px;
+}
+div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

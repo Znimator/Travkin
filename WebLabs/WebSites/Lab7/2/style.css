@@ -1,0 +1,23 @@
+div{
+    display: inline-block;
+    opacity: 0.5;
+    width: 40%;
+    margin: auto;
+    margin-top: 3em;
+    padding: 1em;
+    border: 1px solid green;
+    border-radius: 0.5em;
+    background-color: #DDD;
+    text-align: center;
+    font-weight: bold;
+}
+     
+#first:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+     
+#second:hover{
+    opacity: 1;
+    cursor: crosshair;
+}

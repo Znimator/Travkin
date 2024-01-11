@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+     
+div{
+    box-sizing: border-box;
+    position: absolute;
+    padding: 1em;
+    border: 1px solid green;
+    border-radius: 0.5em;
+    background-color: #DDD;
+    text-align: center;
+    font-weight: bold;
+}
+     
+    #first{
+    width: 300px;
+    height: 100px;
+    top: 120px;
+    left: -80px; 
+    transform: rotate(-90deg);
+}
+     
+#second, #third{
+    left: 140px;
+    width: 400px;
+    height: 140px;
+}
+     
+#second{
+    top: 20px;
+}
+     
+#third{
+    top: 180px;
+}

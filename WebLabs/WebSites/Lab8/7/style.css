@@ -1,0 +1,12 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+
+}
+.menu_item{
+    background-color: bisque ;
+    height: 100px;
+    width: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

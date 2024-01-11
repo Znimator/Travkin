@@ -1,0 +1,74 @@
+.h {
+    width: 500px;
+    padding: 15px;
+    margin: 30px;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.h2 {
+    width: 500px;
+    padding: 1em;
+    margin: 2em;
+    border: 1px solid;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.h3 {
+    width: 500px;
+    padding: 1em;
+    margin: 2em;
+    border: 1px solid;
+    font-family: 'Gabriola', sans-serif;
+    font-size: 1.2em;
+}
+
+.h4 {
+    width: 500px;
+    background-color: orange;
+}
+
+.h4alt {
+    width: 500px;
+    background-color: violet;
+}
+
+.ul1 {
+    list-style-type: decimal;
+}
+
+.ul2 {
+    list-style-type: square;
+}
+
+.text {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.main {
+    width: 500px;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid gray;
+    box-shadow: 2px 1px 5px 3px grey;
+}
+.img {
+    width: 240px;
+    height: 200px;
+    border: 1px black solid;
+    margin: auto;
+}
+p {
+    width: 500px;
+    padding: 1em;
+    margin: auto;
+    margin-top: 1em;
+    border: 1px grey solid;
+    box-shadow: 2px 1px 5px 3px grey;
+    background-color: white;
+}

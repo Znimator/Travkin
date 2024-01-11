@@ -1,0 +1,22 @@
+.menu{
+    width: 500px;
+    display: flex;
+    width: 350px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: rgb(255, 243, 240);
+}
+
+.menu-items{
+    width: 30px;
+    height: 30px;
+    flex-grow: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 11px;
+}
+
+img{
+    height: 25px;
+}
